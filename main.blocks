@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="@KKAlaWS-WcNnQt34L7J" x="0" y="0"><comment pinned="true" h="123" w="162">Don't forget to comment your code as you work!</comment><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="6PF6DSkVsI;6S574nZ*r"><value name="color"><shadow type="colorindexpicker" id="tW!n5xt{lu301b[85s,6"><field name="index">7</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="-_Y^hlrV}LAgbW5,j1.f">Player</variable><variable type="KIND_SpriteKind" id="?`Q;yal62.EsKdnB`lZI">Projectile</variable><variable type="KIND_SpriteKind" id="CF:$p0?*qk~4/p.2EF^_">Food</variable><variable type="KIND_SpriteKind" id="^0$uAG46+a%RAN5Y?6Ga">Enemy</variable><variable id="1)YmO`?=cQ^LuBSV8r=N">mySprite</variable><variable id="T(8ogf%qt)hwXi_Op3y?">soccerPlayer</variable></variables><block type="pxt-on-start" id="@KKAlaWS-WcNnQt34L7J" x="0" y="0"><comment pinned="true" h="123" w="162">Don't forget to comment your code as you work!</comment><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="6PF6DSkVsI;6S574nZ*r"><value name="color"><shadow type="colorindexpicker" id="tW!n5xt{lu301b[85s,6"><field name="index">7</field></shadow></value><next><block type="variables_set" id="z3kgoWk3ByG[S=2Q:PB3"><field name="VAR" id="T(8ogf%qt)hwXi_Op3y?">soccerPlayer</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="{cu/0X!uTLI[8]nbV|I?"><value name="img"><shadow type="screen_image_picker" id="tcbwP3+Vs+.)w0x7kMhx"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f f . . . . . 
+. . . . f f f f f f f f . . . . 
+. . . f f f f f f f f f f f . . 
+. . f f f f 4 4 4 4 f f f f . . 
+. f f 4 f b f 4 4 f b f 4 f f . 
+. f 4 4 4 1 f 4 4 f 1 4 4 4 f . 
+. . f 4 4 4 4 4 4 4 4 4 4 f . . 
+. . . f 4 4 f f f f 4 4 f . . . 
+. . 4 4 8 9 9 9 9 9 9 8 4 4 . . 
+. . 4 4 8 9 8 9 9 9 9 8 4 4 . . 
+. . 4 4 8 9 9 9 9 9 9 8 4 4 . . 
+. . . . . 1 1 1 1 1 1 . . . . . 
+. . . . . 1 1 . . 1 1 . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"tcbwP3+Vs+.)w0x7kMhx"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="*EU5##Zi|h}-;|M5+o7."><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
