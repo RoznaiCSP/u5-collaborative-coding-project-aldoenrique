@@ -88,7 +88,7 @@ let goal = sprites.create(img`
     ......................................................................................................................................................
     `, SpriteKind.Goal)
 goal.setPosition(80, 25)
-soccerPlayer.setPosition(76, 76)
+soccerPlayer.setPosition(76, 95)
 soccerBall = darts.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
