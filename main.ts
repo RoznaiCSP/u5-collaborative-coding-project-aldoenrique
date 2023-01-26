@@ -125,7 +125,7 @@ let goal = sprites.create(img`
     ......................................................................................................................................................
     `, SpriteKind.Goal)
 goal.setPosition(80, 25)
-soccerPlayer.setPosition(76, 95)
+soccerPlayer.setPosition(74, 107)
 soccerBall = darts.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
@@ -144,6 +144,6 @@ soccerBall = darts.create(img`
     . . . . . 1 1 1 1 1 1 1 1 1 . . 
     . . . . . . . . 1 . . . . . . . 
     `, SpriteKind.Projectile)
-soccerBall.setPosition(75, 78)
+soccerBall.setPosition(74, 91)
 soccerBall.setTrace()
 soccerBall.controlWithArrowKeys()
