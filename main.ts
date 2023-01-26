@@ -64,6 +64,7 @@ function doSoccerPlayer () {
 }
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     soccerBall.throwDart()
+    goalie.setPosition(randint(20, 120), randint(25, 35))
 })
 function doGoal () {
     goal = sprites.create(img`
