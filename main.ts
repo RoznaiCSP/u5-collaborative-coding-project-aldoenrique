@@ -430,5 +430,6 @@ forever(function () {
         info.setScore(0)
         game.splash("you win!!!")
         goalie.setPosition(74, 32)
+        game.reset()
     }
 })
