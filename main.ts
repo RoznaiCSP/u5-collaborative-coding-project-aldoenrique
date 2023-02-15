@@ -41,7 +41,7 @@ function doGoalie () {
 }
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.barrier, function (sprite, otherSprite) {
     soccerBall.stopDart()
-    soccerBall.setPosition(73, 91)
+    soccerBall.setPosition(74, 91)
     goalie.setPosition(74, 32)
 })
 function doSoccerPlayer () {
