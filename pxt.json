@@ -1,9 +1,10 @@
 {
-    "name": "U5 Collaborative Coding Project",
+    "name": "Penalty",
     "description": "",
     "dependencies": {
         "device": "*",
-        "darts": "*"
+        "darts": "*",
+        "multiplayer": "*"
     },
     "files": [
         "main.blocks",
