@@ -1,10 +1,9 @@
 {
-    "name": "Penalty",
+    "name": "U5 Collaborative Coding Project",
     "description": "",
     "dependencies": {
         "device": "*",
-        "darts": "*",
-        "multiplayer": "*"
+        "darts": "*"
     },
     "files": [
         "main.blocks",
@@ -18,7 +17,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.21",
+        "target": "1.12.17",
         "targetId": "arcade"
     },
     "supportedTargets": [
